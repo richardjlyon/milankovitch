@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "milankovitch"
+version = "0.1.0"
+description = ""
+authors = ["Richard Lyon <richlyon@mac.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+scipy = "^1.10.1"
+pandas = "^1.5.3"
+matplotlib = "^3.7.1"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

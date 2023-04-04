@@ -1,0 +1,8 @@
+# Elegant SciPy Matplotlib Style
+# Author: JRichard Lyon
+
+# Remove the right and top axis spines
+axes.spines.left: true
+axes.spines.bottom: true
+axes.spines.top: false
+axes.spines.right: false
