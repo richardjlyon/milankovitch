@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from milankovitch.utils import load_data, next_power_of_2, gaussian_filter
+from milankovitch.utils import load_data, next_power_of_2
 
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 np.seterr(divide='ignore')
@@ -36,7 +36,15 @@ parameters = [
 
 
 def prepare(df: pd.DataFrame, N: int = 500) -> pd.DataFrame:
-    """Interpolate sea level data with N points."""
+    """
+    Interpolate sea level data with N points.
+    Args:
+        df: A dataframe containing sea level data as a timeseries
+        N: The number of points in the interpolated set
+
+    Returns: A Dataframe of interpolated data
+
+    """
     x = np.linspace(0.0, N, N + 1)
     y = np.interp(x, df["Age_kaBP"], df["RSL_m"])
 
@@ -45,8 +53,16 @@ def prepare(df: pd.DataFrame, N: int = 500) -> pd.DataFrame:
     return df
 
 
-def compute_fft(df) -> pd.DataFrame:
-    """Compute fft."""
+def compute_fft(df: pd.DataFrame, max_period: int = 120) -> pd.DataFrame:
+    """
+    Compute the Fourier Transform into the frequency domain.
+    Args:
+        df: A dataframe containing sea level data as a timeseries
+        max_period: The maximum period to return (in thousands of years)
+
+    Returns: A Dataframe of periods and signal power
+
+    """
 
     # Number of points, a power of 2 larger than the number of the data
     N = 2 ** (next_power_of_2(len(df)) + 8)
@@ -66,31 +82,14 @@ def compute_fft(df) -> pd.DataFrame:
     frequencies = np.fft.rfftfreq(N, T)
     periods = 1 / frequencies
 
-    # Dataframe of periods less that 150,000 years
+    # Dataframe of periods less than max_period years
     df = pd.DataFrame(list(zip(periods, power)), columns=["periods", "power"])
-    df = df[df["periods"] < 120]
+    df = df[df["periods"] < max_period]
 
     return df
 
 
-def filter(df: pd.DataFrame, fcentral: float = 0.1, width: float = 0.05) -> np.ndarray:
-    """Filter the given signal."""
-
-    # Number of points, a power of 2 larger than the number of the data
-    N = 2 ** (next_power_of_2(len(df)) + 8)
-    # Timestep ('000 years)
-    T = 1
-
-    frequencies = np.fft.rfftfreq(N, T)
-    spectrum = np.fft.rfft(df["RSL_m"], N, norm="ortho")
-
-    filtered_spectrum = gaussian_filter(frequencies, spectrum, fcentral, width)
-    filtered_series = np.fft.irfft(filtered_spectrum, N, norm='ortho')
-
-    return filtered_series[:len(df)]
-
-
-if __name__ == "__main__":
+def plot_sealevel():
     df = load_data('RSL_data.xlsx')
     df_sealevel = prepare(df)
     df_fft = compute_fft(df_sealevel)
@@ -107,7 +106,7 @@ if __name__ == "__main__":
     ax0.set_xlabel("Age ('000 years before present)")
     ax0.set_ylabel("Sea Level [m]")
 
-    # plot power spectra
+    # plot power spectrum
 
     df_fft.plot(ax=ax1, x="periods", y="power", color="tab:red", legend=None)
     ax1.set_title("Milankovitch Cycle components")
@@ -134,4 +133,9 @@ if __name__ == "__main__":
     )
 
     plt.savefig("milankovitch.png")
+    print("Saved `milankovitch.png`")
     plt.show()
+
+
+if __name__ == "__main__":
+    plot_sealevel()
