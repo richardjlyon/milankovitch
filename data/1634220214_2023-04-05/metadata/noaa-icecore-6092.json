@@ -1,0 +1,224 @@
+{
+  "xmlId" : "1388",
+  "NOAAStudyId" : "6092",
+  "studyName" : "EPICA Dome C - 800KYr Dust Data",
+  "doi" : "https://doi.org/10.25921/1w64-m266",
+  "uuid" : "8cf436ac-a880-4157-8653-19a985725004",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncei.noaa.gov/products/paleoclimatology",
+    "email" : "paleo@noaa.gov",
+    "phone" : "828-271-4800",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Lambert, F.; Delmonte, B.; Petit, J.-R.; Bigler, M.; Kaufmann, P.R.; Hutterli, M.A.; Stocker, T.F.; Ruth, U.; Steffensen V, J.P.",
+  "investigatorDetails" : [ {
+    "firstName" : "Jean-Robert",
+    "lastName" : "Petit",
+    "initials" : "J.-R.",
+    "orcId" : null
+  }, {
+    "firstName" : "Thomas",
+    "lastName" : "Stocker",
+    "initials" : "T.F.",
+    "orcId" : "0000-0003-1245-2728"
+  }, {
+    "firstName" : null,
+    "lastName" : "Hutterli",
+    "initials" : "M.A.",
+    "orcId" : null
+  }, {
+    "firstName" : "Matthias",
+    "lastName" : "Bigler",
+    "initials" : "M.",
+    "orcId" : "0000-0003-0184-4013"
+  }, {
+    "firstName" : null,
+    "lastName" : "Ruth",
+    "initials" : "U.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Lambert",
+    "initials" : "F.",
+    "orcId" : null
+  }, {
+    "firstName" : "Barbara",
+    "lastName" : "Delmonte",
+    "initials" : "B.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Kaufmann",
+    "initials" : "P.R.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Steffensen V",
+    "initials" : "J.P.",
+    "orcId" : null
+  } ],
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncei.noaa.gov/access/paleo-search/study/6092",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-6092.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-6092.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncei.noaa.gov/products/paleoclimatology/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2008-07-01",
+  "entryId" : "noaa-icecore-6092",
+  "earliestYearBP" : 800589,
+  "mostRecentYearBP" : 371,
+  "earliestYearCE" : -798639,
+  "mostRecentYearCE" : 1579,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : null,
+    "title" : null,
+    "journal" : null,
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Lambert, F., B. Delmonte, J.R. Petit, M. Bigler, P.R. Kaufmann, M.A. Hutterli, T.F. Stocker, U. Ruth, J.P. Steffensen and V. Maggi. 2008. Dust-climate couplings over the past 800,000 years from the EPICA Dome C ice core. Nature, Vol. 452, pp. 616-619, 3 April 2008.",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : null,
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "19998",
+    "siteName" : "EPICA Dome C",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Continent>Antarctica",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-75.1", "123.4" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-75.1",
+        "northernmostLatitude" : "-75.1",
+        "westernmostLongitude" : "123.4",
+        "easternmostLongitude" : "123.4",
+        "minElevationMeters" : "3240",
+        "maxElevationMeters" : "3240"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "EDC Dust Lambert2008",
+      "NOAADataTableId" : "38217",
+      "earliestYear" : 800589,
+      "mostRecentYear" : 371,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 800589,
+      "mostRecentYearBP" : 371,
+      "earliestYearCE" : -798639,
+      "mostRecentYearCE" : 1579,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Measurements of dust mass concentration and Fine Particle Percentage using both laser and Coulter Counter methods.",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-dust2008.txt",
+        "urlDescription" : "Data",
+        "linkText" : "edc-dust2008.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar kiloyear before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>dust",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mass fraction unit>nanogram per gram",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>particle size analysis>laser particle size analysis",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>dust",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mass fraction unit>nanogram per gram",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>particle size analysis>electric sensing particle size analysis",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "physical property>length>diameter>grain size>grain size class",
+          "cvMaterial" : "geological material>bulk geological material>particles",
+          "cvError" : null,
+          "cvUnit" : "mathematical unit>standard deviation unit",
+          "cvSeasonality" : null,
+          "cvDetail" : "normalized|smoothed",
+          "cvMethod" : "laboratory method>particle size analysis>laser particle size analysis",
+          "cvAdditionalInfo" : "fine grain size 1 to 2 microns",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "physical property>length>diameter>grain size>grain size class",
+          "cvMaterial" : "geological material>bulk geological material>particles",
+          "cvError" : null,
+          "cvUnit" : "mathematical unit>standard deviation unit",
+          "cvSeasonality" : null,
+          "cvDetail" : "normalized|smoothed",
+          "cvMethod" : "laboratory method>particle size analysis>electric sensing particle size analysis",
+          "cvAdditionalInfo" : "fine grain size 1 to 2 microns",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>physical properties" ]
+      } ]
+    } ]
+  } ],
+  "reference" : {
+    "pastThesaurusSkos" : "https://www.ncei.noaa.gov/access/paleo-search/skos/past-thesaurus.rdf",
+    "pastThesaurusExplorer" : "https://www.ncei.noaa.gov/access/paleo-search/cvterms",
+    "gcmdKeywordThesaurus" : "https://earthdata.nasa.gov/earth-observation-data/find-data/idn/gcmd-keywords"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "files" : [ {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/edc3-composite-co2-2008-noaa.txt",
+    "filesize" : "34683",
+    "MD5" : "4c974fe117373670b887574f81adb9b3"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/edc-siegenthaler-co2-2008-bern-noaa.txt",
+    "filesize" : "28049",
+    "MD5" : "dd88ab2a42e306f9b80cd06774c2de11"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/edc-siegenthaler-co2-2008-grenoble-noaa.txt",
+    "filesize" : "20191",
+    "MD5" : "4537addb5a25fba7b563ce92dcafd85c"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/vostok-edc3-co2-2008-noaa.txt",
+    "filesize" : "27394",
+    "MD5" : "f93a8f77ab0749f715b1c2b9dc330b7d"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/taylor-edc3-co2-2008-noaa.txt",
+    "filesize" : "21380",
+    "MD5" : "cac3712ec6e9e47d5e05200205543721"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/edc-co2-2008-bern-noaa.txt",
+    "filesize" : "25884",
+    "MD5" : "b55be2a604f586e8f8ea8d14d12ad1e2"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/edc-co2-2008-grenoble-noaa.txt",
+    "filesize" : "20336",
+    "MD5" : "a5756c7cd7c41dd6098d949d45973d15"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/edc-monnin-co2-2008-noaa.txt",
+    "filesize" : "24137",
+    "MD5" : "4ba841bcca0e2fcc2b734c41c0839674"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/edc3deuttemp2007.txt",
+    "filesize" : "357457",
+    "MD5" : "0c9d2ea455439973d81b9b00644007e5"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/antarctica/epica_domec/edc-dust2008.txt",
+    "filesize" : "292173",
+    "MD5" : "f763951485c082880b497169fa7bdc7b"
+  } ],
+  "params" : {
+    "searchText" : "epica",
+    "dataPublisher" : "NOAA",
+    "xmlId" : "1390|1384|1388"
+  },
+  "matches" : [ {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-6091.json",
+    "studyName" : "EPICA Dome C - 800KYr CO2 Data",
+    "sites" : [ {
+      "siteName" : "Vostok",
+      "files" : [ {
+        "fileName" : "Carbon Dioxide Data for 0-440 kyr BP on EDC3 timescale",
+        "description" : "NOAA Template File",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/vostok-edc3-co2-2008-noaa.txt"
+      }, {
+        "fileName" : "Composite Carbon Dioxide Data from EPICA Dome C and Vostok for 0-800 kyr BP",
+        "description" : "NOAA Template File",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3-composite-co2-2008-noaa.txt"
+      } ]
+    }, {
+      "siteName" : "Taylor Dome",
+      "files" : [ {
+        "fileName" : "Carbon Dioxide Data for 19-32 kyr BP on EDC3 timescale",
+        "description" : "NOAA Template File",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/taylor-edc3-co2-2008-noaa.txt"
+      } ]
+    }, {
+      "siteName" : "EPICA Dome C",
+      "files" : [ {
+        "fileName" : "Composite Carbon Dioxide Data from EPICA Dome C and Vostok for 0-800 kyr BP",
+        "description" : "NOAA Template File",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3-composite-co2-2008-noaa.txt"
+      }, {
+        "fileName" : "Carbon Dioxide Data for 416-664 kyr BP on EDC3 timescale measured at Bern",
+        "description" : "NOAA Template File",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-siegenthaler-co2-2008-bern-noaa.txt"
+      }, {
+        "fileName" : "Carbon Dioxide Data for 393-426 kyr BP on EDC3 timescale measured at Grenoble",
+        "description" : "NOAA Template File",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-siegenthaler-co2-2008-grenoble-noaa.txt"
+      }, {
+        "fileName" : "Carbon Dioxide Data for 611-798 kyr BP measured at Bern",
+        "description" : "NOAA Template File",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-co2-2008-bern-noaa.txt"
+      }, {
+        "fileName" : "Carbon Dioxide Data for 667-798 kyr BP measured at Grenoble",
+        "description" : "NOAA Template File",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-co2-2008-grenoble-noaa.txt"
+      }, {
+        "fileName" : "Carbon Dioxide Data for 0-22 kyr BP on EDC3 timescale",
+        "description" : "NOAA Template File",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-monnin-co2-2008-noaa.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-6080.json",
+    "studyName" : "EPICA Dome C - 800KYr Deuterium Data and Temperature Estimates",
+    "sites" : [ {
+      "siteName" : "EPICA Dome C",
+      "files" : [ {
+        "fileName" : "edc3deuttemp2007.txt",
+        "description" : "Data",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3deuttemp2007.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-6092.json",
+    "studyName" : "EPICA Dome C - 800KYr Dust Data",
+    "sites" : [ {
+      "siteName" : "EPICA Dome C",
+      "files" : [ {
+        "fileName" : "edc-dust2008.txt",
+        "description" : "Data",
+        "URL" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-dust2008.txt"
+      } ]
+    } ]
+  } ],
+  "info" : {
+    "downloadCreateDate" : "2023-04-05T10:47:55.448Z",
+    "details" : "See the included README.txt for details of the sections in this manifest."
+  }
+}

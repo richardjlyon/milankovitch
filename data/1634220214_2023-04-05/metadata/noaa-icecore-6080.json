@@ -1,0 +1,327 @@
+{
+  "xmlId" : "1384",
+  "NOAAStudyId" : "6080",
+  "studyName" : "EPICA Dome C - 800KYr Deuterium Data and Temperature Estimates",
+  "doi" : "https://doi.org/10.25921/8t7e-z147",
+  "uuid" : "9c58f758-3151-4676-860c-53eb3f623497",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncei.noaa.gov/products/paleoclimatology",
+    "email" : "paleo@noaa.gov",
+    "phone" : "828-271-4800",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Jouzel, J.; Masson-Delmotte, V.; Cattani, O.; Dreyfus, G.; Falourd, S.; Hoffmann, G.; Minster, B.; Nouet, J.; Barnola, J.-M.; Chappellaz, J.A.; Fischer, H.; Gallet, J.C.; Johnsen, S.J.; Leuenberger, M.; Loulergue, L.; Luethi, D.; Oerter, H.; Parrenin, F.; Raisbeck, G.M.; Raynaud, D.; Schilt, A.; Schwander, J.; Selmo, E.; Souchez, R.; Spahni, R.; Stauffer, B.; Steffensen, J.P.; Stenni, B.; Stocker, T.F.; Tison, J.L.; Werner, M.; Wolff, E.W.",
+  "investigatorDetails" : [ {
+    "firstName" : "Sigfus",
+    "lastName" : "Johnsen",
+    "initials" : "S.J.",
+    "orcId" : null
+  }, {
+    "firstName" : "Jean",
+    "lastName" : "Jouzel",
+    "initials" : "J.",
+    "orcId" : null
+  }, {
+    "firstName" : "Jérôme",
+    "lastName" : "Chappellaz",
+    "initials" : "J.A.",
+    "orcId" : "0000-0002-9117-2961"
+  }, {
+    "firstName" : "Jean-Marc",
+    "lastName" : "Barnola",
+    "initials" : "J.-M.",
+    "orcId" : null
+  }, {
+    "firstName" : "Hubertus",
+    "lastName" : "Fischer",
+    "initials" : "H.",
+    "orcId" : "0000-0002-2787-4221"
+  }, {
+    "firstName" : "Jakob",
+    "lastName" : "Schwander",
+    "initials" : "J.",
+    "orcId" : null
+  }, {
+    "firstName" : "Barbara",
+    "lastName" : "Stenni",
+    "initials" : "B.",
+    "orcId" : "0000-0003-4950-3664"
+  }, {
+    "firstName" : "Renato",
+    "lastName" : "Spahni",
+    "initials" : "R.",
+    "orcId" : "0000-0002-4239-5130"
+  }, {
+    "firstName" : "Valérie",
+    "lastName" : "Masson-Delmotte",
+    "initials" : "V.",
+    "orcId" : "0000-0001-8296-381X"
+  }, {
+    "firstName" : "Markus",
+    "lastName" : "Leuenberger",
+    "initials" : "M.",
+    "orcId" : "0000-0003-4299-6793"
+  }, {
+    "firstName" : null,
+    "lastName" : "Cattani",
+    "initials" : "O.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Selmo",
+    "initials" : "E.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Steffensen",
+    "initials" : "J.P.",
+    "orcId" : null
+  }, {
+    "firstName" : "Adrian",
+    "lastName" : "Schilt",
+    "initials" : "A.",
+    "orcId" : "0000-0001-6312-7947"
+  }, {
+    "firstName" : "Gabrielle",
+    "lastName" : "Dreyfus",
+    "initials" : "G.",
+    "orcId" : "0000-0002-5863-0924"
+  }, {
+    "firstName" : null,
+    "lastName" : "Hoffmann",
+    "initials" : "G.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Nouet",
+    "initials" : "J.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Gallet",
+    "initials" : "J.C.",
+    "orcId" : null
+  }, {
+    "firstName" : "Hans",
+    "lastName" : "Oerter",
+    "initials" : "H.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Tison",
+    "initials" : "J.L.",
+    "orcId" : null
+  }, {
+    "firstName" : "Frédéric",
+    "lastName" : "Parrenin",
+    "initials" : "F.",
+    "orcId" : "0000-0002-9489-3991"
+  }, {
+    "firstName" : null,
+    "lastName" : "Minster",
+    "initials" : "B.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Luethi",
+    "initials" : "D.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Werner",
+    "initials" : "M.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Raisbeck",
+    "initials" : "G.M.",
+    "orcId" : null
+  }, {
+    "firstName" : "Dominique",
+    "lastName" : "Raynaud",
+    "initials" : "D.",
+    "orcId" : null
+  }, {
+    "firstName" : "Thomas",
+    "lastName" : "Stocker",
+    "initials" : "T.F.",
+    "orcId" : "0000-0003-1245-2728"
+  }, {
+    "firstName" : "Bernhard",
+    "lastName" : "Stauffer",
+    "initials" : "B.",
+    "orcId" : null
+  }, {
+    "firstName" : "Eric",
+    "lastName" : "Wolff",
+    "initials" : "E.W.",
+    "orcId" : "0000-0002-5914-8531"
+  }, {
+    "firstName" : null,
+    "lastName" : "Loulergue",
+    "initials" : "L.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Falourd",
+    "initials" : "S.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Souchez",
+    "initials" : "R.",
+    "orcId" : null
+  } ],
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncei.noaa.gov/access/paleo-search/study/6080",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-6080.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-6080.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncei.noaa.gov/products/paleoclimatology/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : [ "Air Temperature Reconstruction" ],
+  "reconstruction" : "Y",
+  "contributionDate" : "2009-12-11",
+  "entryId" : "noaa-icecore-6080",
+  "earliestYearBP" : 801642,
+  "mostRecentYearBP" : -50,
+  "earliestYearCE" : -799692,
+  "mostRecentYearCE" : 2000,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : null,
+    "title" : null,
+    "journal" : null,
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Jouzel, J., V. Masson-Delmotte, O. Cattani, G. Dreyfus, S. Falourd, G. Hoffmann, B. Minster, J. Nouet, J.M. Barnola, J. Chappellaz, H. Fischer, J.C. Gallet, S. Johnsen, M. Leuenberger, L. Loulergue, D. Luethi, H. Oerter, F. Parrenin, G. Raisbeck, D. Raynaud, A. Schilt, J. Schwander, E. Selmo, R. Souchez, R. Spahni, B. Stauffer, J.P. Steffensen, B. Stenni, T.F. Stocker, J.L. Tison, M. Werner, and E.W. Wolff.  2007.  Orbital and Millennial Antarctic Climate Variability over the Past 800,000 Years.  Science, Vol. 317, No. 5839, pp.793-797, 10 August 2007.",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : null,
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "19998",
+    "siteName" : "EPICA Dome C",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Continent>Antarctica",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-75.1", "123.4" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-75.1",
+        "northernmostLatitude" : "-75.1",
+        "westernmostLongitude" : "123.4",
+        "easternmostLongitude" : "123.4",
+        "minElevationMeters" : "3240",
+        "maxElevationMeters" : "3240"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "EPICA Dome C Core 402",
+      "NOAADataTableId" : "9374",
+      "earliestYear" : -799692,
+      "mostRecentYear" : 2000,
+      "timeUnit" : "CE",
+      "earliestYearBP" : 801642,
+      "mostRecentYearBP" : -50,
+      "earliestYearCE" : -799692,
+      "mostRecentYearCE" : 2000,
+      "coreLengthMeters" : 3200,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3deuttemp2007.txt",
+        "urlDescription" : "Data",
+        "linkText" : "edc3deuttemp2007.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 2H",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VSMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CLIMATE RECONSTRUCTIONS|ICE CORES",
+          "cvWhat" : "earth system variable>temperature variable>temperature>surface temperature",
+          "cvMaterial" : "reconstruction material>isotope ratio>delta 2H",
+          "cvError" : null,
+          "cvUnit" : "temperature unit>degree Celsius",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "sampling metadata>sample identification",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : null,
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CLIMATE RECONSTRUCTIONS|ICE CORES",
+          "cvWhat" : "depth variable>depth>depth at sample start",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CLIMATE RECONSTRUCTIONS|ICE CORES",
+          "cvWhat" : "age variable>age>ice age at sample start",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>hydrogen isotopes" ]
+      } ]
+    } ]
+  } ],
+  "reference" : {
+    "pastThesaurusSkos" : "https://www.ncei.noaa.gov/access/paleo-search/skos/past-thesaurus.rdf",
+    "pastThesaurusExplorer" : "https://www.ncei.noaa.gov/access/paleo-search/cvterms",
+    "gcmdKeywordThesaurus" : "https://earthdata.nasa.gov/earth-observation-data/find-data/idn/gcmd-keywords"
+  }
+}

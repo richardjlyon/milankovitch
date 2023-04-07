@@ -1,0 +1,903 @@
+{
+  "xmlId" : "1390",
+  "NOAAStudyId" : "6091",
+  "studyName" : "EPICA Dome C - 800KYr CO2 Data",
+  "doi" : "https://doi.org/10.25921/xgzs-gd10",
+  "uuid" : "6e230d5a-e824-45b9-82c0-9f9e3d7c53d7",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncei.noaa.gov/products/paleoclimatology",
+    "email" : "paleo@noaa.gov",
+    "phone" : "828-271-4800",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Lüthi, D.; Le Floch, M.; Bereiter, B.; Blunier, T.; Barnola, J.-M.; Siegenthaler, U.; Raynaud, D.; Jouzel, J.; Fischer, H.; Kawamura, K.; Stocker, T.F.",
+  "investigatorDetails" : [ {
+    "firstName" : "Jean",
+    "lastName" : "Jouzel",
+    "initials" : "J.",
+    "orcId" : null
+  }, {
+    "firstName" : "Dominique",
+    "lastName" : "Raynaud",
+    "initials" : "D.",
+    "orcId" : null
+  }, {
+    "firstName" : "Jean-Marc",
+    "lastName" : "Barnola",
+    "initials" : "J.-M.",
+    "orcId" : null
+  }, {
+    "firstName" : "Thomas",
+    "lastName" : "Stocker",
+    "initials" : "T.F.",
+    "orcId" : "0000-0003-1245-2728"
+  }, {
+    "firstName" : "Hubertus",
+    "lastName" : "Fischer",
+    "initials" : "H.",
+    "orcId" : "0000-0002-2787-4221"
+  }, {
+    "firstName" : "Thomas",
+    "lastName" : "Blunier",
+    "initials" : "T.",
+    "orcId" : "0000-0002-6065-7747"
+  }, {
+    "firstName" : "Kenji",
+    "lastName" : "Kawamura",
+    "initials" : "K.",
+    "orcId" : "0000-0003-1163-700X"
+  }, {
+    "firstName" : "Urs",
+    "lastName" : "Siegenthaler",
+    "initials" : "U.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Lüthi",
+    "initials" : "D.",
+    "orcId" : null
+  }, {
+    "firstName" : null,
+    "lastName" : "Le Floch",
+    "initials" : "M.",
+    "orcId" : null
+  }, {
+    "firstName" : "Bernhard",
+    "lastName" : "Bereiter",
+    "initials" : "B.",
+    "orcId" : "0000-0002-1500-8617"
+  } ],
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "European Commission",
+    "fundingGrant" : null
+  }, {
+    "fundingAgency" : "Swiss National Science Foundation",
+    "fundingGrant" : null
+  }, {
+    "fundingAgency" : "University of Bern",
+    "fundingGrant" : null
+  }, {
+    "fundingAgency" : "Swiss Federal Office of Energy",
+    "fundingGrant" : null
+  }, {
+    "fundingAgency" : "ANR France",
+    "fundingGrant" : "programme PICC"
+  } ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncei.noaa.gov/access/paleo-search/study/6091",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-6091.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-6091.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncei.noaa.gov/products/paleoclimatology/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2008-07-01",
+  "entryId" : "noaa-icecore-6091",
+  "earliestYearBP" : 798893,
+  "mostRecentYearBP" : 137,
+  "earliestYearCE" : -796943,
+  "mostRecentYearCE" : 1813,
+  "publication" : [ {
+    "author" : {
+      "name" : "Monnin, E., E.J. Steig, U. Siegenthaler, K. Kawamura, J. Schwander, B. Stauffer, T.F. Stocker, D.L. Morse, J.-M. Barnola, B. Bellier, D. Raynaud, H. Fischer"
+    },
+    "pubYear" : 2004,
+    "title" : "Evidence for substantial accumulation rate variability in Antarctica during the Holocene, through synchronization of CO2 in the Taylor Dome, Dome C and DML ice cores",
+    "journal" : "Earth and Planetary Science Letters",
+    "volume" : "224",
+    "edition" : null,
+    "issue" : "1-2",
+    "pages" : "45-54",
+    "reportNumber" : null,
+    "citation" : "Monnin, E., E.J. Steig, U. Siegenthaler, K. Kawamura, J. Schwander, B. Stauffer, T.F. Stocker, D.L. Morse, J.-M. Barnola, B. Bellier, D. Raynaud, H. Fischer. 2004. Evidence for substantial accumulation rate variability in Antarctica during the Holocene, through synchronization of CO2 in the Taylor Dome, Dome C and DML ice cores. Earth and Planetary Science Letters, 224(1-2), 45-54. doi: 10.1016/j.epsl.2004.05.007",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1016/j.epsl.2004.05.007",
+      "url" : "http://dx.doi.org/10.1016/j.epsl.2004.05.007"
+    },
+    "abstract" : null,
+    "pubRank" : "9"
+  }, {
+    "author" : {
+      "name" : "Petit, J.R., J. Jouzel, D. Raynaud, N.I. Barkov, J.M. Barnola, I. Basile, M. Bender, J. Chappellaz, M. Davis, G. Delaygue, M. Delmotte, V.M. Kotlyakov, M. Legrand, V. Lipenkov, C. Lorius, L. Pépin, C. Ritz, E. Saltzman, M. Stievenard"
+    },
+    "pubYear" : 1999,
+    "title" : "Climate and atmospheric history of the past 420,000 years from the Vostok Ice Core, Antarctica",
+    "journal" : "Nature",
+    "volume" : "399",
+    "edition" : null,
+    "issue" : null,
+    "pages" : "429-436",
+    "reportNumber" : null,
+    "citation" : "Petit, J.R., J. Jouzel, D. Raynaud, N.I. Barkov, J.M. Barnola, I. Basile, M. Bender, J. Chappellaz, M. Davis, G. Delaygue, M. Delmotte, V.M. Kotlyakov, M. Legrand, V. Lipenkov, C. Lorius, L. Pépin, C. Ritz, E. Saltzman, M. Stievenard. 1999. Climate and atmospheric history of the past 420,000 years from the Vostok Ice Core, Antarctica. Nature, 399, 429-436. doi: 10.1038/20859",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1038/20859",
+      "url" : "http://dx.doi.org/10.1038/20859"
+    },
+    "abstract" : null,
+    "pubRank" : "3"
+  }, {
+    "author" : {
+      "name" : "Indermühle, A., E. Monnin, B. Stauffer, T.F. Stocker, and M. Wahlen"
+    },
+    "pubYear" : 2000,
+    "title" : "Atmospheric CO2 concentration from 60 to 20 kyr BP from the Taylor Dome ice core, Antarctica",
+    "journal" : "Geophysical Research Letters",
+    "volume" : "27",
+    "edition" : null,
+    "issue" : "5",
+    "pages" : "735-738",
+    "reportNumber" : null,
+    "citation" : "Indermühle, A., E. Monnin, B. Stauffer, T.F. Stocker, and M. Wahlen. 2000. Atmospheric CO2 concentration from 60 to 20 kyr BP from the Taylor Dome ice core, Antarctica. Geophysical Research Letters, 27(5), 735-738. doi: 10.1029/1999GL010960",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/1999GL010960",
+      "url" : "http://dx.doi.org/10.1029/1999GL010960"
+    },
+    "abstract" : null,
+    "pubRank" : "2"
+  }, {
+    "author" : {
+      "name" : "Lüthi, D., M. Le Floch, B. Bereiter, T. Blunier, J.-M. Barnola, U. Siegenthaler, D. Raynaud, J. Jouzel, H. Fischer, K. Kawamura, and T.F. Stocker"
+    },
+    "pubYear" : 2008,
+    "title" : "High-resolution carbon dioxide concentration record 650,000-800,000 years before present",
+    "journal" : "Nature",
+    "volume" : "453",
+    "edition" : null,
+    "issue" : null,
+    "pages" : "379-382",
+    "reportNumber" : null,
+    "citation" : "Lüthi, D., M. Le Floch, B. Bereiter, T. Blunier, J.-M. Barnola, U. Siegenthaler, D. Raynaud, J. Jouzel, H. Fischer, K. Kawamura, and T.F. Stocker. 2008. High-resolution carbon dioxide concentration record 650,000-800,000 years before present. Nature, 453, 379-382. doi: 10.1038/nature06949",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1038/nature06949",
+      "url" : "http://dx.doi.org/10.1038/nature06949"
+    },
+    "abstract" : "Changes in past atmospheric carbon dioxide concentrations can be determined by measuring the composition of air trapped in ice cores from Antarctica. So far, the Antarctic Vostok and EPICA Dome C ice cores have provided a composite record of atmospheric carbon dioxide levels over the past 650,000 years. Here we present results of the lowest 200 m of the Dome C ice core, extending the record of atmospheric carbon dioxide concentration by two complete glacial cycles to 800,000 yr before present. From previously published data and the present work, we find that atmospheric carbon dioxide is strongly correlated with Antarctic temperature throughout eight glacial cycles but with significantly lower concentrations between 650,000 and 750,000 yr before present. Carbon dioxide levels are below 180 parts per million by volume (p.p.m.v.) for a period of 3,000 yr during Marine Isotope Stage 16, possibly reflecting more pronounced oceanic carbon storage. We report the lowest carbon dioxide concentration measured in an ice core, which extends the pre-industrial range of carbon dioxide concentrations during the late Quaternary by about 10 p.p.m.v. to 172–300 p.p.m.v.",
+    "pubRank" : "1"
+  }, {
+    "author" : {
+      "name" : "Raynaud, D., J.-M. Barnola, R. Souchez, R. Lourrain, J.-R. Petit, P. Duval, V.Y. Lipenkov"
+    },
+    "pubYear" : 2005,
+    "title" : "The record for marine isotopic stage 11",
+    "journal" : "Nature",
+    "volume" : "436",
+    "edition" : null,
+    "issue" : null,
+    "pages" : "39-40",
+    "reportNumber" : null,
+    "citation" : "Raynaud, D., J.-M. Barnola, R. Souchez, R. Lourrain, J.-R. Petit, P. Duval, V.Y. Lipenkov. 2005. The record for marine isotopic stage 11. Nature, 436, 39-40. doi: 10.1038/43639b",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1038/43639b",
+      "url" : "http://dx.doi.org/10.1038/43639b"
+    },
+    "abstract" : null,
+    "pubRank" : "5"
+  }, {
+    "author" : {
+      "name" : "Monnin, E., A. Indermühle, A. Dällenbach, J. Flückiger, B. Stauffer, T. F. Stocker, D. Raynaud, J.-M. Barnola"
+    },
+    "pubYear" : 2001,
+    "title" : "Atmospheric CO2 Concentrations over the Last Glacial Termination",
+    "journal" : "Science",
+    "volume" : "291",
+    "edition" : null,
+    "issue" : null,
+    "pages" : "112-114",
+    "reportNumber" : null,
+    "citation" : "Monnin, E., A. Indermühle, A. Dällenbach, J. Flückiger, B. Stauffer, T. F. Stocker, D. Raynaud, J.-M. Barnola. 2001. Atmospheric CO2 Concentrations over the Last Glacial Termination. Science, 291, 112-114. doi: 10.1126/science.291.5501.112",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1126/science.291.5501.112",
+      "url" : "http://dx.doi.org/10.1126/science.291.5501.112"
+    },
+    "abstract" : null,
+    "pubRank" : "7"
+  }, {
+    "author" : {
+      "name" : "Siegenthaler, U., T.F. Stocker, E. Monnin, D. Lüthi, J. Schwander, B. Stauffer, D. Raynaud, J.-M. Barnola, H. Fischer, V. Masson-Delmotte, J. Jouzel"
+    },
+    "pubYear" : 2005,
+    "title" : "Stable Carbon Cycle-Climate Relationship During the Late Pleistocene",
+    "journal" : "Science",
+    "volume" : "310",
+    "edition" : null,
+    "issue" : null,
+    "pages" : "1313-1317",
+    "reportNumber" : null,
+    "citation" : "Siegenthaler, U., T.F. Stocker, E. Monnin, D. Lüthi, J. Schwander, B. Stauffer, D. Raynaud, J.-M. Barnola, H. Fischer, V. Masson-Delmotte, J. Jouzel. 2005. Stable Carbon Cycle-Climate Relationship During the Late Pleistocene. Science, 310, 1313-1317. doi: 10.1126/science.1120130",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1126/science.1120130",
+      "url" : "http://dx.doi.org/10.1126/science.1120130"
+    },
+    "abstract" : null,
+    "pubRank" : "6"
+  }, {
+    "author" : {
+      "name" : "Flückiger, J., E. Monnin, B. Stauffer, J. Schwander, T.F. Stocker, J. Chappellaz, D. Raynaud, J.-M. Barnola"
+    },
+    "pubYear" : 2002,
+    "title" : "High resolution Holocene N2O ice core record and its relationship with CH4 and CO2",
+    "journal" : "Global Biogeochemical Cycles",
+    "volume" : "16",
+    "edition" : null,
+    "issue" : "1",
+    "pages" : null,
+    "reportNumber" : "1010",
+    "citation" : "Flückiger, J., E. Monnin, B. Stauffer, J. Schwander, T.F. Stocker, J. Chappellaz, D. Raynaud, J.-M. Barnola. 2002. High resolution Holocene N2O ice core record and its relationship with CH4 and CO2. Global Biogeochemical Cycles, 16(1), 1010. doi: 10.1029/2001GB001417",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2001GB001417",
+      "url" : "http://dx.doi.org/10.1029/2001GB001417"
+    },
+    "abstract" : null,
+    "pubRank" : "8"
+  }, {
+    "author" : {
+      "name" : "Pépin, L., D. Raynaud, J.-M. Barnola, M.-F. Loutre"
+    },
+    "pubYear" : 2001,
+    "title" : "Hemispheric roles of climate forcings during glacial-interglacial transitions as deduced from the Vostok record and LLN-2D model experiments",
+    "journal" : "Journal of Geophysical Research: Atmospheres",
+    "volume" : "106",
+    "edition" : null,
+    "issue" : "D23",
+    "pages" : "31885-31892",
+    "reportNumber" : null,
+    "citation" : "Pépin, L., D. Raynaud, J.-M. Barnola, M.-F. Loutre. 2001. Hemispheric roles of climate forcings during glacial-interglacial transitions as deduced from the Vostok record and LLN-2D model experiments. Journal of Geophysical Research: Atmospheres, 106(D23), 31885-31892. doi: 10.1029/2001JD900117",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2001JD900117",
+      "url" : "http://dx.doi.org/10.1029/2001JD900117"
+    },
+    "abstract" : null,
+    "pubRank" : "4"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "19976",
+    "siteName" : "Vostok",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Continent>Antarctica",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-78.47", "106.8" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-78.47",
+        "northernmostLatitude" : "-78.47",
+        "westernmostLongitude" : "106.8",
+        "easternmostLongitude" : "106.8",
+        "minElevationMeters" : "3488",
+        "maxElevationMeters" : "3488"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Vostok CO2 Luthi2008",
+      "NOAADataTableId" : "49453",
+      "earliestYear" : 438986,
+      "mostRecentYear" : 2690,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 438986,
+      "mostRecentYearBP" : 2690,
+      "earliestYearCE" : -437036,
+      "mostRecentYearCE" : -740,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "EDC3 gas age timescale applied to CO2 data originally published by Petit et al. 1999 (NOAA/WDS-Paleo study 2453; https://doi.org/10.25921/kcry-ae86), Pépin et al. 2001, and Raynaud et al. 2005",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/vostok-edc3-co2-2008-noaa.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Carbon Dioxide Data for 0-440 kyr BP on EDC3 timescale",
+        "variables" : [ {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "measured at LGGE in Grenoble; Petit et al. 1999; Pépin et al. 2001; Raynaud et al. 2005",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "age variable>age>gas age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "EDC3_gas_age",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "gas_ageBP"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Depth"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>atmospheric gas" ]
+      } ]
+    }, {
+      "dataTableName" : "Composite CO2 Luthi2008",
+      "NOAADataTableId" : "49454",
+      "earliestYear" : 798512,
+      "mostRecentYear" : 137,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 798512,
+      "mostRecentYearBP" : 137,
+      "earliestYearCE" : -796562,
+      "mostRecentYearCE" : 1813,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Composite CO2 record from EPICA Dome C (0-22 kyr BP; 393-416 kyr BP; 416-664 kyr BP; 664-800 kyr BP) and Vostok (22-393 kyr BP). CO2 measurements by Lüthi et al. 2008 (this study), Siegenthaler et al. 2005 (NOAA/WDS-Paleo study 2486; https://doi.org/10.25921/zcte-mp31), Monnin et al. 2001 (NOAA/WDS-Paleo study 2449; https://doi.org/10.25921/ggj5-vt17), Flückiger et al. 2002 (NOAA/WDS-Paleo study 2457; https://doi.org/10.25921/f11s-s467), Monnin et al. 2004 (NOAA/WDS-Paleo study 2479; https://doi.org/10.25921/aktb-0t39), Petit et al. 1999 (NOAA/WDS-Paleo study 2453; https://doi.org/10.25921/kcry-ae86), Pépin et al. 2001, and Raynaud et al. 2005, all on the EDC3 gas age timescale.",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3-composite-co2-2008-noaa.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Composite Carbon Dioxide Data from EPICA Dome C and Vostok for 0-800 kyr BP",
+        "variables" : [ {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "age variable>age>gas age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "EDC3_gas_age",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "gas_ageBP"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>atmospheric gas" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "19977",
+    "siteName" : "Taylor Dome",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Continent>Antarctica",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-77.78", "158.72" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-77.78",
+        "northernmostLatitude" : "-77.78",
+        "westernmostLongitude" : "158.72",
+        "easternmostLongitude" : "158.72",
+        "minElevationMeters" : "2365",
+        "maxElevationMeters" : "2365"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Taylor CO2 Luthi2008",
+      "NOAADataTableId" : "49452",
+      "earliestYear" : 63205,
+      "mostRecentYear" : 18906,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 63205,
+      "mostRecentYearBP" : 18906,
+      "earliestYearCE" : -61255,
+      "mostRecentYearCE" : -16956,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "EDC3 gas age timescale applied to CO2 data originally published by Indermühle et al. 2000 (NOAA/WDS-Paleo study 2421; https://doi.org/10.25921/h6jn-sc76)",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/taylor-edc3-co2-2008-noaa.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Carbon Dioxide Data for 19-32 kyr BP on EDC3 timescale",
+        "variables" : [ {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "age variable>age>gas age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "tentatively synchronized on EDC3_gas_age",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "gas_ageBP"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "measured at University of Bern; Indermühle et al. 2000",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : "standard deviation>one standard deviation",
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "measured at University of Bern; Indermühle et al. 2000",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2_1s"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Depth"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>atmospheric gas" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "19998",
+    "siteName" : "EPICA Dome C",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Continent>Antarctica",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-75.1", "123.4" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-75.1",
+        "northernmostLatitude" : "-75.1",
+        "westernmostLongitude" : "123.4",
+        "easternmostLongitude" : "123.4",
+        "minElevationMeters" : "3240",
+        "maxElevationMeters" : "3240"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "EDC CO2 Luthi2008 Bern",
+      "NOAADataTableId" : "38218",
+      "earliestYear" : 798512,
+      "mostRecentYear" : 611269,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 798512,
+      "mostRecentYearBP" : 611269,
+      "earliestYearCE" : -796562,
+      "mostRecentYearCE" : -609319,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-co2-2008-bern-noaa.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Carbon Dioxide Data for 611-798 kyr BP measured at Bern",
+        "variables" : [ {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Depth"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "age variable>age>gas age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "EDC3_gas_age",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "gas_ageBP"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>spectroscopy>laser spectroscopy",
+          "cvAdditionalInfo" : "measured at University of Bern",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : "standard deviation>one standard deviation",
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>spectroscopy>laser spectroscopy",
+          "cvAdditionalInfo" : "measured at University of Bern",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2_1s"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>atmospheric gas" ]
+      } ]
+    }, {
+      "dataTableName" : "EDC CO2 Luthi2008 Grenoble",
+      "NOAADataTableId" : "49448",
+      "earliestYear" : 798893,
+      "mostRecentYear" : 667435,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 798893,
+      "mostRecentYearBP" : 667435,
+      "earliestYearCE" : -796943,
+      "mostRecentYearCE" : -665485,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-co2-2008-grenoble-noaa.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Carbon Dioxide Data for 667-798 kyr BP measured at Grenoble",
+        "variables" : [ {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Depth"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "age variable>age>gas age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "EDC3_gas_age",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "gas_ageBP"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>chromatography>gas chromatography",
+          "cvAdditionalInfo" : "measured at LGGE in Grenoble",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>atmospheric gas" ]
+      } ]
+    }, {
+      "dataTableName" : "EDC-Monnin CO2 Luthi2008",
+      "NOAADataTableId" : "49449",
+      "earliestYear" : 22015,
+      "mostRecentYear" : 137,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 22015,
+      "mostRecentYearBP" : 137,
+      "earliestYearCE" : -20065,
+      "mostRecentYearCE" : 1813,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "EDC3 gas age timescale applied to CO2 data originally published by Monnin et al. 2001 (NOAA/WDS-Paleo study 2449; https://doi.org/10.25921/ggj5-vt17), Flückiger et al. 2002 (NOAA/WDS-Paleo study 2457; https://doi.org/10.25921/f11s-s467), and Monnin et al. 2004 (NOAA/WDS-Paleo study 2479; https://doi.org/10.25921/aktb-0t39)",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-monnin-co2-2008-noaa.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Carbon Dioxide Data for 0-22 kyr BP on EDC3 timescale",
+        "variables" : [ {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Depth"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "age variable>age>gas age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "EDC3_gas_age",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "gas_ageBP"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "measured at University of Bern; Monnin et al. 2001; Flückiger et al. 2002; Monnin et al. 2004",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : "standard deviation>one standard deviation",
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "measured at University of Bern; Monnin et al. 2001; Flückiger et al. 2002; Monnin et al. 2004",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2_1s"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>atmospheric gas" ]
+      } ]
+    }, {
+      "dataTableName" : "EDC-Siegenthaler CO2 Luthi2008 Bern",
+      "NOAADataTableId" : "49450",
+      "earliestYear" : 664690,
+      "mostRecentYear" : 415717,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 664690,
+      "mostRecentYearBP" : 415717,
+      "earliestYearCE" : -662740,
+      "mostRecentYearCE" : -413767,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "EDC3 gas age timescale applied to CO2 data originally published by Siegenthaler et al. 2005 (NOAA/WDS-Paleo study 2486; https://doi.org/10.25921/zcte-mp31)",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-siegenthaler-co2-2008-bern-noaa.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Carbon Dioxide Data for 416-664 kyr BP on EDC3 timescale measured at Bern",
+        "variables" : [ {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Depth"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "age variable>age>gas age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "EDC3_gas_age",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "gas_ageBP"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "measured at University of Bern; Siegenthaler et al. 2005",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : "standard deviation>one standard deviation",
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "measured at University of Bern; Siegenthaler et al. 2005",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2_1s"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>atmospheric gas" ]
+      } ]
+    }, {
+      "dataTableName" : "EDC-Siegenthaler CO2 Luthi2008 Grenoble",
+      "NOAADataTableId" : "49451",
+      "earliestYear" : 426953,
+      "mostRecentYear" : 392544,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 426953,
+      "mostRecentYearBP" : 392544,
+      "earliestYearCE" : -425003,
+      "mostRecentYearCE" : -390594,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "EDC3 gas age timescale applied to CO2 data originally published by Siegenthaler et al. 2005 (NOAA/WDS-Paleo study 2486; https://doi.org/10.25921/zcte-mp31)",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-siegenthaler-co2-2008-grenoble-noaa.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Carbon Dioxide Data for 393-426 kyr BP on EDC3 timescale measured at Grenoble",
+        "variables" : [ {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Depth"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "age variable>age>gas age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "EDC3_gas_age",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "gas_ageBP"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "measured at LGGE in Grenoble; Siegenthaler et al. 2005",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>atmospheric gas" ]
+      } ]
+    }, {
+      "dataTableName" : "Composite CO2 Luthi2008",
+      "NOAADataTableId" : "49454",
+      "earliestYear" : 798512,
+      "mostRecentYear" : 137,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 798512,
+      "mostRecentYearBP" : 137,
+      "earliestYearCE" : -796562,
+      "mostRecentYearCE" : 1813,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Composite CO2 record from EPICA Dome C (0-22 kyr BP; 393-416 kyr BP; 416-664 kyr BP; 664-800 kyr BP) and Vostok (22-393 kyr BP). CO2 measurements by Lüthi et al. 2008 (this study), Siegenthaler et al. 2005 (NOAA/WDS-Paleo study 2486; https://doi.org/10.25921/zcte-mp31), Monnin et al. 2001 (NOAA/WDS-Paleo study 2449; https://doi.org/10.25921/ggj5-vt17), Flückiger et al. 2002 (NOAA/WDS-Paleo study 2457; https://doi.org/10.25921/f11s-s467), Monnin et al. 2004 (NOAA/WDS-Paleo study 2479; https://doi.org/10.25921/aktb-0t39), Petit et al. 1999 (NOAA/WDS-Paleo study 2453; https://doi.org/10.25921/kcry-ae86), Pépin et al. 2001, and Raynaud et al. 2005, all on the EDC3 gas age timescale.",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc3-composite-co2-2008-noaa.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Composite Carbon Dioxide Data from EPICA Dome C and Vostok for 0-800 kyr BP",
+        "variables" : [ {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>carbon dioxide",
+          "cvMaterial" : "atmospheric material>bulk atmosphere",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per million",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "CO2"
+        }, {
+          "cvDataType" : "CLIMATE FORCING|ICE CORES",
+          "cvWhat" : "age variable>age>gas age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>calendar year before present",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "EDC3_gas_age",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "gas_ageBP"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>atmospheric gas" ]
+      } ]
+    } ]
+  } ],
+  "reference" : {
+    "pastThesaurusSkos" : "https://www.ncei.noaa.gov/access/paleo-search/skos/past-thesaurus.rdf",
+    "pastThesaurusExplorer" : "https://www.ncei.noaa.gov/access/paleo-search/cvterms",
+    "gcmdKeywordThesaurus" : "https://earthdata.nasa.gov/earth-observation-data/find-data/idn/gcmd-keywords"
+  }
+}

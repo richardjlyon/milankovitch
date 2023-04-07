@@ -1,0 +1,525 @@
+﻿# EPICA Dome C - 800KYr CO2 Data
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 4.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, NOAA Landing Page URL, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, study title, NOAA Landing Page URL, and date accessed. 
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# NOAA_Landing_Page:  https://www.ncei.noaa.gov/access/paleo-search/study/6091
+#   Landing_Page_Description: NOAA Landing Page of this file's parent study, which includes all study metadata.
+#
+# Study_Level_JSON_Metadata: https://www.ncei.noaa.gov/pub/data/metadata/published/paleo/json/noaa-icecore-6091.json
+#   Study_Level_JSON_Description: JSON metadata of this data file's parent study, which includes all study metadata.
+#
+# Data_Type: Ice cores
+#
+# Dataset_DOI: 10.25921/xgzs-gd10
+#
+# Science_Keywords: 
+#--------------------
+# Resource_Links
+#   
+# Data_Download_Resource: https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/epica_domec/edc-co2-2008-bern-noaa.txt
+#   Data_Download_Description: NOAA Template File; Carbon Dioxide Data for 611-798 kyr BP measured at Bern
+#
+#--------------------
+# Contribution_Date
+#   Date: 2008-07-01
+#--------------------
+# File_Last_Modified_Date
+#   Date: 2022-08-09
+#--------------------
+# Title
+#   Study_Name: EPICA Dome C - 800KYr CO2 Data
+#--------------------
+# Investigators
+#   Investigators: Lüthi, D.; Le Floch, M.; Bereiter, B.; Blunier, T.; Barnola, J.M.; Siegenthaler, U.; Raynaud, D.; Jouzel, J.; Fischer, H.; Kawamura, K.; Stocker, T.F.
+#--------------------
+# Description_Notes_and_Keywords
+#   Description: Carbon dioxide record from the EPICA (European Project for Ice Coring in Antarctica) Dome C ice core covering 611 to 800 kyr BP, plus synchronization of CO2 data from Vostok, Taylor Dome, and other EPICA Dome C records to the EDC3 timescale and a composite CO2 record from 0-800 kyr BP based on EPICA Dome C and Vostok. These data also available from the Nature Supplementary Materials for Luthi et al. (2008). NOTE:  These data have been revised for an analytical bias as described by Bereiter et al. 2015.  Please see the revised EDC and Antarctic composite CO2 records at:  https://www.ncei.noaa.gov/access/paleo-search/study/17975.
+#--------------------
+# Publication 
+#   Authors: Lüthi, D., M. Le Floch, B. Bereiter, T. Blunier, J.-M. Barnola, U. Siegenthaler, D. Raynaud, J. Jouzel, H. Fischer, K. Kawamura, and T.F. Stocker
+#   Published_Date_or_Year: 2008-05-15
+#   Published_Title: High-resolution carbon dioxide concentration record 650,000-800,000 years before present
+#   Journal_Name: Nature
+#   Volume: 453
+#   Edition: 
+#   Issue: 
+#   Pages: 379-382
+#   Report_Number: 
+#   DOI: 10.1038/nature06949
+#   Publication_Place: 
+#   Publisher:
+#   ISBN: 
+#   Online_Resource: 
+#   Other_Reference_Details: 
+#   Full_Citation:
+#   Abstract: Changes in past atmospheric carbon dioxide concentrations can be determined by measuring the composition of air trapped in ice cores from Antarctica. So far, the Antarctic Vostok and EPICA Dome C ice cores have provided a composite record of atmospheric carbon dioxide levels over the past 650,000 years. Here we present results of the lowest 200 m of the Dome C ice core, extending the record of atmospheric carbon dioxide concentration by two complete glacial cycles to 800,000 yr before present. From previously published data and the present work, we find that atmospheric carbon dioxide is strongly correlated with Antarctic temperature throughout eight glacial cycles but with significantly lower concentrations between 650,000 and 750,000 yr before present. Carbon dioxide levels are below 180 parts per million by volume (p.p.m.v.) for a period of 3,000 yr during Marine Isotope Stage 16, possibly reflecting more pronounced oceanic carbon storage. We report the lowest carbon dioxide concentration measured in an ice core, which extends the pre-industrial range of carbon dioxide concentrations during the late Quaternary by about 10 p.p.m.v. to 172–300 p.p.m.v.
+#--------------------
+# Publication 
+#   Authors: Indermühle, A., E. Monnin, B. Stauffer, T.F. Stocker, and M. Wahlen
+#   Published_Date_or_Year: 2000-03-01
+#   Published_Title: Atmospheric CO2 concentration from 60 to 20 kyr BP from the Taylor Dome ice core, Antarctica
+#   Journal_Name: Geophysical Research Letters
+#   Volume: 27
+#   Edition: 
+#   Issue: 5
+#   Pages: 735-738
+#   Report_Number: 
+#   DOI: 10.1029/1999GL010960
+#   Publication_Place: 
+#   Publisher:
+#   ISBN: 
+#   Online_Resource: 
+#   Other_Reference_Details: 
+#   Full_Citation:
+#   Abstract: A high-resolution record of the atmospheric CO2 concentration from 60 to 20 thousand years before present (kyr BP) based on measurements on the ice core of Taylor Dome, Antarctica is presented. This record shows four distinct peaks of 20 parts per million by volume (ppmv) on a millennial time scale. Good correlation of the CO2 record with temperature reconstructions based on stable isotope measurements on the Vostok ice core (Antarctica) is found.
+#--------------------
+# Publication 
+#   Authors: Petit, J.-R., J. Jouzel, D. Raynaud, N.I. Barkov, J.-M. Barnola, I. Basile, M. Bender, J. Chappellaz, M. Davis, G. Delaygue, M. Delmotte, V.M. Kotlyakov, M. Legrand, V. Lipenkov, C. Lorius, L. Pépin, C. Ritz, E. Saltzman, and M. Stievenard
+#   Published_Date_or_Year: 1999-06-03
+#   Published_Title: Climate and atmospheric history of the past 420,000 years from the Vostok Ice Core, Antarctica
+#   Journal_Name: Nature
+#   Volume: 399
+#   Edition: 
+#   Issue: 
+#   Pages: 429–436
+#   Report_Number: 
+#   DOI: 10.1038/20859
+#   Publication_Place: 
+#   Publisher:
+#   ISBN: 
+#   Online_Resource: 
+#   Other_Reference_Details: 
+#   Full_Citation:
+#   Abstract: The recent completion of drilling at Vostok station in East Antarctica has allowed the extension of the ice record of atmospheric composition and climate to the past four glacial–interglacial cycles. The succession of changes through each climate cycle and termination was similar, and atmospheric and climate properties oscillated between stable bounds. Interglacial periods differed in temporal evolution and duration. Atmospheric concentrations of carbon dioxide and methane correlate well with Antarctic air-temperature throughout the record. Present-day atmospheric burdens of these two important greenhouse gases seem to have been unprecedented during the past 420,000 years.
+#--------------------
+# Publication 
+#   Authors: Pépin, L., D. Raynaud, J.-M. Barnola, M.-F. Loutre
+#   Published_Date_or_Year: 2001-12-16
+#   Published_Title: Hemispheric roles of climate forcings during glacial-interglacial transitions as deduced from the Vostok record and LLN-2D model experiments
+#   Journal_Name: Journal of Geophysical Research
+#   Volume: 106
+#   Edition: 
+#   Issue: D23
+#   Pages: 31885-31892
+#   Report_Number: 
+#   DOI: 10.1029/2001JD900117
+#   Publication_Place: 
+#   Publisher:
+#   ISBN: 
+#   Online_Resource: 
+#   Other_Reference_Details: 
+#   Full_Citation:
+#   Abstract: The Vostok ice contains fingerprints of atmospheric greenhouse trace gases, Antarctic temperature, Northern Hemisphere temperature, and global ice volume/sea level changes during the last glacial-interglacial cycles and thus allows us to investigate the sequences of these climatic events, in particular during the transitions from full glacial to interglacial conditions. The use of the updated CO2 record presented here and a reexamination of the sea level proxy confirm that the succession of changes has been similar through each of the four marked transitions found at Vostok. Antarctic air temperature and CO2 increase in parallel and almost synchronously, while the rapid warmings over Greenland take place during the last half of their change and coincide with the marked decay in continental ice volume. The Vostok results thus emphasize a fundamental difference between South and North in terms of climate dynamics. Our results confirm the role of CO2 as an important amplifier of the glacial-interglacial warming in the South. It appears also that the marked warming observed at high northern latitudes (lagging behind the CO2 increase by several thousand years) is roughly synchronous with the decay of the northern ice sheets, suggesting a major role of climatic feedback due to this decay. Such a climatic scenario is supported by sensitivity experiments performed with the LLN 2-D model forced by the Northern Hemisphere insolation and CO2. Model results indicate that the decay of the northern ice sheets and the Northern Hemisphere temperature depend primarily on the northern summer insolation. These results, nevertheless, could be affected if mechanisms specific to the Southern Hemisphere appear to play a major role in driving the Northern Hemisphere climate. The model also helps to constrain the time response of ice volume to insolation and CO2 changes.
+#--------------------
+# Publication 
+#   Authors: Raynaud, D., J.-M. Barnola, R. Souchez, R. Lourrain, J.-R. Petit, P. Duval, V.Y. Lipenkov
+#   Published_Date_or_Year: 2005-07-06
+#   Published_Title: The record for marine isotopic stage 11
+#   Journal_Name: Nature
+#   Volume: 436
+#   Edition: 
+#   Issue: 
+#   Pages: 39-40
+#   Report_Number: 
+#   DOI: 10.1038/43639b
+#   Publication_Place: 
+#   Publisher:
+#   ISBN: 
+#   Online_Resource: 
+#   Other_Reference_Details: 
+#   Full_Citation:
+#   Abstract: The marine isotopic stage 11 (MIS 11) is an extraordinarily long interglacial period in the Earth's history that occurred some 400,000 years ago and lasted for about 30,000 years. During this period there were weak, astronomically induced changes in the distribution of solar energy reaching the Earth. The conditions of this orbital climate forcing are similar to those of today's interglacial period, and they rendered the climate susceptible to other forcing--for example, to changes in the level of atmospheric carbon dioxide. Here we use ice-core data from the Antarctic Vostok core to reconstruct a complete atmospheric carbon dioxide record for MIS 11. The record indicates that values for carbon dioxide throughout the interglacial period were close to the Earth's pre-industrial levels and that both solar energy and carbon dioxide may have helped to make MIS 11 exceptionally long. Anomalies in the oceanic carbonate system recorded in marine sediments at the time, for example while coral reefs were forming, apparently left no signature on atmospheric carbon dioxide concentrations.
+#--------------------
+# Publication 
+#   Authors: Siegenthaler, U., T.F. Stocker, E. Monnin, D. Lüthi, J. Schwander, B. Stauffer, D. Raynaud, J.-M. Barnola, H. Fischer, V. Masson-Delmotte, J. Jouzel
+#   Published_Date_or_Year: 2005-11-25
+#   Published_Title: Stable Carbon Cycle-Climate Relationship During the Late Pleistocene
+#   Journal_Name: Science
+#   Volume: 310
+#   Edition: 
+#   Issue: 
+#   Pages: 1313-1317
+#   Report_Number: 
+#   DOI: 10.1126/science.1120130
+#   Publication_Place: 
+#   Publisher:
+#   ISBN: 
+#   Online_Resource: 
+#   Other_Reference_Details: 
+#   Full_Citation:
+#   Abstract: A record of atmospheric carbon dioxide (CO2) concentrations measured on the EPICA (European Project for Ice Coring in Antarctica) Dome Concordia ice core extends the Vostok CO2 record back to 650,000 years before the present (yr B.P.). Before 430,000 yr B.P., partial pressure of atmospheric CO2 lies within the range of 260 and 180 parts per million by volume. This range is almost 30% smaller than that of the last four glacial cycles; however, the apparent sensitivity between deuterium and CO2 remains stable throughout the six glacial cycles, suggesting that the relationship between CO2 and Antarctic climate remained rather constant over this interval.
+#--------------------
+# Publication 
+#   Authors: Monnin, E., A. Indermühle, A. Dällenbach, J. Flückiger, B. Stauffer, T. F. Stocker, D. Raynaud, J.-M. Barnola
+#   Published_Date_or_Year: 2001
+#   Published_Title: Atmospheric CO2 Concentrations over the Last Glacial Termination 
+#   Journal_Name: Science
+#   Volume: 291
+#   Edition: 
+#   Issue: 
+#   Pages: 112-114
+#   Report_Number: 
+#   DOI: 10.1126/science.291.5501.112
+#   Publication_Place: 
+#   Publisher:
+#   ISBN: 
+#   Online_Resource: 
+#   Other_Reference_Details: 
+#   Full_Citation:
+#   Abstract: A record of atmospheric carbon dioxide (CO2) concentration during the transition from the Last Glacial Maximum to the Holocene, obtained from the Dome Concordia, Antarctica, ice core, reveals that an increase of 76 parts per million by volume occurred over a period of 6000 years in four clearly distinguishable intervals. The close correlation between CO2 concentration and Antarctic temperature indicates that the Southern Ocean played an important role in causing the CO2 increase. However, the similarity of changes in CO2 concentration and variations of atmospheric methane concentration suggests that processes in the tropics and in the Northern Hemisphere, where the main sources for methane are located, also had substantial effects on atmospheric CO2 concentrations.
+#--------------------
+# Publication 
+#   Authors: Flückiger, J., E. Monnin, B. Stauffer, J. Schwander, T.F. Stocker, J. Chappellaz, D. Raynaud, J.-M. Barnola
+#   Published_Date_or_Year: 2002-03-01
+#   Published_Title: High resolution Holocene N2O ice core record and its relationship with CH4 and CO2
+#   Journal_Name: Global Biogeochemical Cycles
+#   Volume: 16
+#   Edition: 
+#   Issue: 1
+#   Pages: 
+#   Report_Number: 1010
+#   DOI: 10.1029/2001GB001417
+#   Publication_Place: 
+#   Publisher:
+#   ISBN: 
+#   Online_Resource: 
+#   Other_Reference_Details: 
+#   Full_Citation:
+#   Abstract: Nitrous oxide (N2O) concentration records exist for the last 1000 years and for time periods of rapid climatic changes like the transition from the last glacial to today's interglacial and for one of the fast climate variations during the last ice age. Little is known, however, about possible N2O variations during the more stable climate of the present interglacial (Holocene) spanning the last 11 thousand years. Here we fill this gap with a high-resolution N2O record measured along the European Project for Ice Coring in Antarctica (EPICA) Dome C Antarctic ice core. On the same ice we obtained high-resolution methane and carbon dioxide records. This provides the unique opportunity to compare variations of the three most important greenhouse gases (after water vapor) without any uncertainty in their relative timing. The CO2 and CH4 records are in good agreement with previous measurements on other ice cores. The N2O concentration started to decrease in the early Holocene and reached minimum values around 8 ka (<260 ppbv) before a slow increase to its preindustrial concentration of ~265 ppbv.
+#--------------------
+# Publication 
+#   Authors: Monnin, E., E.J. Steig, U. Siegenthaler, K. Kawamura, J. Schwander, B. Stauffer, T.F. Stocker, D.L. Morse, J.-M. Barnola, B. Bellier, D. Raynaud, and H. Fischer
+#   Published_Date_or_Year: 2004-07-30
+#   Published_Title: Evidence for substantial accumulation rate variability in Antarctica during the Holocene, through synchronization of CO2 in the Taylor Dome, Dome C and DML ice cores
+#   Journal_Name: Earth and Planetary Science Letters
+#   Volume: 224
+#   Edition: 
+#   Issue: 1-2
+#   Pages: 45-54
+#   Report_Number: 
+#   DOI: 10.1016/j.epsl.2004.05.007
+#   Publication_Place: 
+#   Publisher:
+#   ISBN: 
+#   Online_Resource: 
+#   Other_Reference_Details: 
+#   Full_Citation:
+#   Abstract: High resolution records of atmospheric CO2 concentration during the Holocene are obtained from the Dome Concordia and Dronning Maud Land (Antarctica) ice cores. These records confirm that the CO2 concentration varied between 260 and 280 ppmv in the Holocene as measured in the Taylor Dome ice core. However, there are differences in the CO2 records most likely caused by mismatches in timescales. Matching the Taylor Dome timescale to the Dome C timescale by synchronization of CO2 indicates that the accumulation rate at Taylor Dome increased through the Holocene by a factor of two and bears little resemblance to the stable isotope record used as a proxy for temperature. This result shows that different locations experienced substantially different accumulation changes, and casts doubt on the often-used assumption that accumulation rate scales with the saturation vapor pressure as a function of temperature, at least for coastal locations.
+#--------------------
+# Funding_Agency 
+#   Funding_Agency_Name: European Commission
+#   Grant: 
+#--------------------
+# Funding_Agency 
+#   Funding_Agency_Name: Swiss National Science Foundation 
+#   Grant:
+#--------------------
+# Funding_Agency 
+#   Funding_Agency_Name: University of Bern 
+#   Grant: 
+#--------------------
+# Funding_Agency 
+#   Funding_Agency_Name: Swiss Federal Office of Energy
+#   Grant: 
+#--------------------
+# Funding_Agency 
+#   Funding_Agency_Name: ANR France (Agence nationale pour la Recherche)
+#   Grant: programme PICC
+#--------------------
+# Site_Information 
+#   Site_Name: EPICA Dome C
+#   Location: Antarctica
+#   Northernmost_Latitude: -75.1
+#   Southernmost_Latitude: -75.1
+#   Easternmost_Longitude: 123.4
+#   Westernmost_Longitude: 123.4
+#   Elevation_m: 3240
+#--------------------
+# Data_Collection  
+#   Collection_Name: EDC CO2 Luthi2008 Bern
+#   Earliest_Year: 798512
+#   Most_Recent_Year: 611269
+#   Time_Unit: cal yr BP
+#   Core_Length_m: 
+#   Parameter_Keywords: atmospheric gas 
+#   Notes: 
+#--------------------
+# Chronology_Information
+#   Chronology: 
+#
+#--------------------
+# Variables  
+#
+# PaST_Thesaurus_Download_Resource:  https://www.ncei.noaa.gov/pub/data/paleo/PaST-thesaurus/SKOS/past-thesaurus-v1.0.rdf
+#   PaST_Thesaurus_Download_Description: Paleoenvironmental Standard Terms (PaST) Thesaurus terms, definitions, and relationships in SKOS format.
+#
+# Variables format: Short_name <tab> what,material,error,units,seasonality,data_type,detail,method,data_format,additional_information
+#
+## Depth	depth,,,meter,,ice cores;climate forcing,,,N,
+## gas_ageBP	gas age,,,calendar year before present,,ice cores;climate forcing,,,N,EDC3_gas_age
+## CO2	carbon dioxide,bulk atmosphere,,parts per million,,ice cores;climate forcing,,laser spectroscopy,N,measured at University of Bern
+## CO2_1s	carbon dioxide,bulk atmosphere,one standard deviation,parts per million,,ice cores;climate forcing,,laser spectroscopy,N,measured at University of Bern
+#
+#--------------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing_Values:
+Depth	gas_ageBP	CO2	CO2_1s
+3026.58	611269	257.8	2.1
+3030.97	616164	252.6	0.6
+3036.44	623109	243.3	2.8
+3040.87	630183	204.4	0.9
+3043.07	635364	195.0	1.5
+3055.18	658404	187.5	1.8
+3056.25	659983	185.6	1.1
+3057.36	661563	192.1	1.0
+3058.47	663133	192.0	2.1
+3059.55	664597	190.6	1.3
+3060.33	665645	178.2	1.1
+3060.73	666174	178.5	1.1
+3061.36	666995	172.7	1.0
+3061.82	667569	171.6	1.4
+3062.53	668447	175.6	0.7
+3062.93	668934	178.5	0.7
+3063.64	669751	185.5	0.2
+3064.02	670176	189.3	0.9
+3064.76	670916	192.6	1.0
+3065.12	671286	194.6	0.7
+3065.76	671926	192.5	0.6
+3066.22	672386	194.8	1.0
+3066.93	673095	198.7	1.0
+3067.33	673475	202.3	0.7
+3068.07	674173	209.2	0.6
+3068.42	674521	213.7	0.8
+3069.52	675589	220.0	0.8
+3070.16	676170	217.4	0.6
+3070.62	676524	214.0	0.9
+3071.33	677068	215.6	1.4
+3071.72	677380	217.4	1.5
+3072.44	677984	226.5	0.8
+3072.80	678291	230.0	0.9
+3073.53	678914	230.8	0.6
+3073.93	679252	230.3	1.2
+3074.56	679732	223.0	1.2
+3075.02	680081	225.0	1.3
+3075.73	680608	218.4	0.9
+3076.13	680920	216.2	1.0
+3076.85	681531	217.3	1.7
+3077.23	681849	219.7	0.6
+3077.93	682446	222.6	1.6
+3078.32	682762	221.3	1.3
+3078.96	683262	218.7	0.8
+3079.43	683612	217.5	0.7
+3080.14	684142	217.5	1.4
+3080.52	684419	219.4	1.0
+3081.25	684949	219.5	1.1
+3081.63	685217	219.7	1.2
+3082.34	685716	223.5	1.0
+3082.72	685980	224.4	1.3
+3083.37	686425	224.3	1.1
+3083.82	686726	227.3	1.7
+3084.56	687227	228.7	1.3
+3084.92	687470	228.8	1.5
+3085.65	687949	232.3	1.0
+3086.03	688195	233.0	0.5
+3086.73	688652	235.8	1.1
+3087.08	688881	234.9	1.2
+3087.76	689304	235.8	2.0
+3088.23	689603	239.9	0.6
+3088.93	690057	235.6	1.3
+3089.30	690294	234.8	2.1
+3090.05	690771	240.0	2.1
+3090.42	690999	234.0	0.8
+3091.13	691432	235.6	1.0
+3091.52	691672	236.6	0.7
+3092.16	692057	235.5	0.9
+3092.62	692338	235.9	1.4
+3093.33	692765	232.9	0.6
+3093.70	692990	234.8	1.5
+3094.45	693433	234.1	1.5
+3094.80	693639	234.1	1.3
+3095.53	694068	235.4	1.0
+3095.92	694300	234.4	1.1
+3096.56	694672	235.8	1.3
+3097.02	694941	236.9	0.8
+3097.74	695383	236.7	1.9
+3098.13	695618	237.6	0.7
+3098.85	696062	234.6	1.0
+3099.22	696287	234.8	0.6
+3099.93	696717	235.4	0.8
+3100.32	696963	232.9	0.6
+3100.92	697331	232.4	0.7
+3101.43	697660	232.2	0.5
+3102.13	698120	231.0	1.0
+3102.52	698386	228.0	0.5
+3103.25	698880	226.4	1.0
+3103.57	699102	227.7	0.7
+3104.33	699633	227.6	1.6
+3104.71	699909	226.0	0.3
+3105.36	700389	228.7	1.3
+3105.82	700744	227.6	1.1
+3106.46	701242	228.2	0.5
+3106.92	701606	228.8	1.4
+3107.64	702158	229.3	0.5
+3107.93	702381	230.3	1.7
+3108.65	702988	232.4	1.3
+3109.12	703384	232.8	1.6
+3109.75	703934	231.2	1.8
+3110.07	704211	231.2	0.9
+3110.88	704973	233.9	0.8
+3111.32	705410	228.5	1.5
+3112.05	706141	228.6	1.0
+3112.31	706409	228.1	1.0
+3115.25	709680	219.7	0.6
+3115.72	710237	220.2	0.3
+3116.42	711104	218.9	1.5
+3116.68	711421	218.7	1.4
+3117.81	712833	218.5	0.5
+3118.60	713843	222.3	1.6
+3118.95	714288	221.7	2.0
+3119.67	715180	217.7	0.6
+3120.12	715750	222.1	0.6
+3120.85	716704	208.1	0.7
+3121.13	717065	205.0	1.7
+3121.86	718064	192.9	1.2
+3122.32	718779	184.3	1.1
+3122.95	719794	187.8	1.6
+3123.35	720337	195.2	0.8
+3124.06	721318	206.3	0.8
+3124.52	722039	211.3	0.9
+3125.27	723133	213.4	1.2
+3125.53	723464	213.2	1.3
+3126.27	724445	210.3	2.0
+3126.72	725059	206.3	0.7
+3127.41	725937	206.6	1.8
+3127.73	726322	208.1	1.2
+3128.45	727192	204.5	0.4
+3128.91	727732	205.5	1.3
+3129.62	728568	205.1	1.1
+3129.93	728921	205.4	0.8
+3131.12	730299	204.0	1.6
+3131.75	730949	204.1	0.8
+3132.13	731329	204.9	0.8
+3132.92	732141	203.8	1.0
+3133.32	732548	205.9	1.7
+3134.02	733261	203.9	0.7
+3134.33	733543	204.4	0.3
+3135.06	734223	205.3	0.4
+3135.52	734604	207.4	1.9
+3136.19	735167	201.7	1.2
+3136.53	735459	201.3	0.8
+3137.25	736079	204.1	1.0
+3137.72	736460	209.7	1.8
+3138.44	737034	208.1	0.7
+3138.73	737266	211.3	0.8
+3139.46	737889	210.6	1.4
+3139.89	738272	206.5	1.7
+3140.54	738844	200.3	1.6
+3140.88	739137	197.8	1.5
+3141.66	739842	185.0	0.9
+3142.12	740277	178.9	0.3
+3142.85	741021	178.6	2.4
+3143.13	741307	176.6	2.4
+3143.86	742075	177.9	2.1
+3144.32	742558	182.3	1.3
+3144.98	743233	181.7	2.7
+3145.32	743589	180.4	0.7
+3146.06	744354	181.2	0.9
+3146.52	744843	182.0	0.9
+3147.48	745836	180.2	1.2
+3148.26	746643	183.1	0.4
+3148.72	747110	180.8	0.3
+3149.35	747759	180.8	1.3
+3149.68	748101	180.4	0.8
+3150.45	748913	181.4	1.3
+3150.91	749401	182.9	1.8
+3151.65	750194	184.8	1.6
+3151.91	750476	184.0	1.4
+3152.65	751301	186.2	1.9
+3153.12	751830	190.1	1.3
+3153.78	752605	188.0	0.3
+3154.10	752978	196.5	1.8
+3154.96	753984	191.5	1.7
+3155.32	754394	195.8	1.5
+3156.08	755241	200.5	2.0
+3156.30	755495	201.9	1.4
+3157.05	756357	206.0	2.2
+3157.52	756871	210.7	2.3
+3158.15	757561	215.0	1.5
+3158.53	757962	219.2	1.4
+3158.80	758259	215.3	0.7
+3159.00	758475	217.6	1.8
+3159.35	758883	217.9	2.3
+3159.72	759306	214.9	1.2
+3160.47	760202	208.8	0.8
+3160.71	760500	206.9	1.1
+3161.46	761453	206.1	1.9
+3161.92	762064	212.0	0.2
+3162.55	762871	216.0	2.1
+3162.91	763319	215.0	0.9
+3163.20	763686	225.7	3.0
+3163.40	763934	221.4	2.7
+3163.65	764249	224.1	1.4
+3164.12	764833	222.6	0.9
+3164.84	765735	216.8	1.6
+3165.13	766110	215.7	0.5
+3165.86	767096	213.5	0.4
+3166.32	767737	217.7	0.9
+3166.97	768655	222.4	2.1
+3167.26	769050	221.4	1.8
+3167.60	769514	228.1	1.6
+3167.80	769787	226.0	1.6
+3168.05	770133	231.5	1.9
+3168.29	770447	235.6	1.1
+3168.50	770724	238.2	2.2
+3168.70	770994	235.6	2.1
+3168.90	771260	237.7	2.4
+3169.24	771708	229.5	1.5
+3169.53	772076	230.9	1.0
+3170.25	773043	230.0	2.3
+3170.72	773680	233.3	0.9
+3171.35	774548	236.9	0.4
+3171.73	775051	240.5	0.6
+3172.46	776037	238.8	2.0
+3172.92	776636	243.9	0.7
+3173.65	777556	246.3	0.5
+3173.93	777900	246.1	1.1
+3174.65	778798	245.8	2.4
+3175.11	779364	243.9	0.9
+3175.84	780268	248.5	0.6
+3176.13	780612	242.8	0.7
+3176.89	781535	248.7	0.7
+3177.32	782059	246.2	1.1
+3178.31	783263	252.1	2.5
+3179.05	784147	246.9	0.7
+3179.52	784692	250.7	0.2
+3180.15	785413	253.3	2.6
+3180.51	785789	255.4	1.4
+3181.26	786587	260.3	1.3
+3181.73	787076	256.9	0.7
+3182.43	787805	248.1	1.5
+3182.65	788033	247.9	2.7
+3183.46	788887	229.5	0.8
+3183.91	789381	226.3	3.0
+3184.57	790153	218.2	0.8
+3184.90	790538	221.3	1.8
+3185.66	791491	215.4	3.7
+3186.12	792081	205.1	2.5
+3186.75	792943	204.0	1.6
+3186.98	793260	209.0	1.9
+3187.87	794608	199.4	1.7
+3188.23	795202	195.2	2.0
+3188.98	796467	189.3	2.1
+3189.33	797099	188.4	1.4
+3190.08	798512	191.0	2.2

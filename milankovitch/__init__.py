@@ -1,3 +1,4 @@
 from pathlib import Path
 
-ROOT = Path.cwd().parent
+ROOT = Path(__file__).parent.parent
+PLOTDIR = ROOT / "plots"
