@@ -62,7 +62,6 @@ def rses_sealevel() -> pd.DataFrame:
 
 if __name__ == "__main__":
     df = rses_sealevel()
-
     print(df)
 
     df.plot(x="Age(kYr)", y="RSL(m)")

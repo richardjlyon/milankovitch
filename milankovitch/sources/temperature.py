@@ -45,12 +45,15 @@ def interpolate(df: pd.DataFrame) -> pd.DataFrame:
     Returns: an interpolated dataframe
 
     """
-    MAX_AGE = 800000
+    # convert year to '000 of years
+    df["Age"] = df["Age"] / 1000
+
+    MAX_AGE = 800
     x = np.linspace(0.0, MAX_AGE, MAX_AGE + 1)
     y = np.interp(x, df["Age"], df["Temperature"])
 
-    df = pd.DataFrame(list(zip(x, y)), columns=["Age(Year)", "Temperature(degC)"])
-    df = df.astype({"Age(Year)": int})
+    df = pd.DataFrame(list(zip(x, y)), columns=["Age(kYr)", "Temperature(degC)"])
+    df = df.dropna()
 
     return df
 
@@ -59,7 +62,7 @@ def epica_domec_800kr_temperature() -> pd.DataFrame:
     """
     Process the EPICA dataset and return a dataframe.
 
-    Data is temperature difference from the average of the last 1000 years in degC ppm for the timeseries [0, 800000]
+    Data is temperature difference from the average of the last 1000 years in degC ppm for the timeseries [0, 800] kYears
     years.
 
     Returns: a dataframe with the data
@@ -68,13 +71,13 @@ def epica_domec_800kr_temperature() -> pd.DataFrame:
     datafile = ROOT / "data" / "1634220214_2023-04-05/data/pub/data/paleo/icecore/antarctica/epica_domec/edc3deuttemp2007.txt"
     df = clean(datafile)
     df = interpolate(df)
-    print(df)
-
-    df.plot(x="Age(Year)", y="Temperature(degC)")
-    plt.show()
 
     return df
 
 
 if __name__ == "__main__":
-    epica_domec_800kr_temperature()
+    df = epica_domec_800kr_temperature()
+    print(df)
+
+    df.plot(x="Age(kYr)", y="Temperature(degC)")
+    plt.show()

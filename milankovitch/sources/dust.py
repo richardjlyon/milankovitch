@@ -9,6 +9,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from milankovitch import ROOT
 
@@ -48,12 +49,16 @@ def interpolate(df: pd.DataFrame) -> pd.DataFrame:
     Returns: an interpolated dataframe
 
     """
-    MAX_AGE = 800000
+    # convert year to '000 of years
+    df["EDC3Age(kyrBP)"] = df["EDC3Age(kyrBP)"] / 1000
+
+    MAX_AGE = 800
     x = np.linspace(0.0, MAX_AGE, MAX_AGE + 1)
     y = np.interp(x, df["EDC3Age(kyrBP)"], df["LaserDust(ng/g)"])
 
-    df = pd.DataFrame(list(zip(x, y)), columns=["Age(Year)", "Dust(ng/g)"])
-    df = df.astype({"Age(Year)": int})
+    df = pd.DataFrame(list(zip(x, y)), columns=["Age(kYr)", "Dust(ng/g)"])
+    df = df.dropna()
+    df = df.astype({"Age(kYr)": int})
 
     return df
 
@@ -75,4 +80,8 @@ def epica_domec_800kr_dust() -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    epica_domec_800kr_dust()
+    df = epica_domec_800kr_dust()
+    print(df)
+
+    df.plot(x="Age(kYr)", y="Dust(ng/g)")
+    plt.show()

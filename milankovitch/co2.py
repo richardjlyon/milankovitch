@@ -1,6 +1,6 @@
-# sealevel.py
+# co2.py
 #
-# Computes the power spectrum of historical global sea levels and plots, noting the
+# Computes the power spectrum of historical CO2 and plots, noting the
 # periods of the dominant orbital parameters (Orbital eccentricity, Axial tilt, and Axial precession
 #
 # Richard Lyon
@@ -13,30 +13,30 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from milankovitch import PLOTDIR
+from milankovitch.sources import epica_domec_800kr_co2
 from milankovitch.utils import orbital_parameters, compute_fft
-from sources import rses_sealevel
 
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 np.seterr(divide='ignore')
 plt.style.use("../style/elegant.mplstyle")
 
 
-def plot_sealevel():
-    df_sealevel = rses_sealevel()
-    df_fft = compute_fft(df_sealevel, "RSL(m)")
+def plot_co2():
+    df_co2 = epica_domec_800kr_co2()
+    df_fft = compute_fft(df_co2, "CO2(ppm)")
     df_fft = df_fft[df_fft["periods"] < 120]
 
     f, (ax0, ax1) = plt.subplots(2, 1, figsize=(12, 8))
     plt.subplots_adjust(hspace=0.4)
-    f.suptitle("Effect of orbital parameters on global sea level")
+    f.suptitle("Effect of orbital parameters on Antarctic CO2")
 
     # plot sea level
 
-    df_sealevel.plot(ax=ax0, x="Age(kYr)", y="RSL(m)", legend=None)
+    df_co2.plot(ax=ax0, x="Age(kYr)", y="CO2(ppm)", legend=None)
     ax0.invert_xaxis()
-    ax0.set_title("Sea Level")
+    ax0.set_title("CO2")
     ax0.set_xlabel("Age ('000 years before present)")
-    ax0.set_ylabel("m")
+    ax0.set_ylabel("ppm")
 
     # plot power spectrum
 
@@ -64,7 +64,7 @@ def plot_sealevel():
         color="lightgrey",
     )
 
-    plotname = PLOTDIR / "sealevel.png"
+    plotname = PLOTDIR / "co2.png"
     plt.savefig(plotname)
     print(f"Saved `{plotname}`")
 
@@ -72,4 +72,4 @@ def plot_sealevel():
 
 
 if __name__ == "__main__":
-    plot_sealevel()
+    plot_co2()

@@ -9,6 +9,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from milankovitch import ROOT
 
@@ -44,12 +45,16 @@ def interpolate(df: pd.DataFrame) -> pd.DataFrame:
     Returns: an interpolated dataframe
 
     """
-    MAX_AGE = 800000
+    # convert year to '000 of years
+    df["gas_ageBP"] = df["gas_ageBP"] / 1000
+
+    MAX_AGE = 800
     x = np.linspace(0.0, MAX_AGE, MAX_AGE + 1)
     y = np.interp(x, df["gas_ageBP"], df["CO2"])
 
-    df = pd.DataFrame(list(zip(x, y)), columns=["Age(Year)", "CO2(ppm)"])
-    df = df.astype({"Age(Year)": int})
+    df = pd.DataFrame(list(zip(x, y)), columns=["Age(kYr)", "CO2(ppm)"])
+    df = df.dropna()
+    df = df.astype({"Age(kYr)": int})
 
     return df
 
@@ -71,4 +76,8 @@ def epica_domec_800kr_co2() -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    epica_domec_800kr_co2()
+    df = epica_domec_800kr_co2()
+    print(df)
+
+    df.plot(x="Age(kYr)", y="CO2(ppm)")
+    plt.show()
