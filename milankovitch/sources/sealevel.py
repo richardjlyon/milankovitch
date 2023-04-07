@@ -9,6 +9,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from milankovitch import ROOT
 
@@ -38,8 +39,7 @@ def interpolate(df: pd.DataFrame) -> pd.DataFrame:
     x = np.linspace(0.0, MAX_AGE, MAX_AGE + 1)
     y = np.interp(x, df["Age_kaBP"], df["RSL_m"])
 
-    df = pd.DataFrame(list(zip(x, y)), columns=["Age(Year)", "RSL(m)"])
-    df = df.astype({"Age(Year)": int})
+    df = pd.DataFrame(list(zip(x, y)), columns=["Age(kYr)", "RSL(m)"])
 
     return df
 
@@ -61,4 +61,9 @@ def rses_sealevel() -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    rses_sealevel()
+    df = rses_sealevel()
+
+    print(df)
+
+    df.plot(x="Age(kYr)", y="RSL(m)")
+    plt.show()
