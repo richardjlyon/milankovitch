@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "milankovitch"
-version = "1.0"
+version = "2.0"
 description = ""
 authors = ["Richard Lyon <richlyon@mac.com>"]
 readme = "README.md"

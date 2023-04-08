@@ -1,14 +1,16 @@
 # Milankovitch
 
-**A python script for examining Milankovitch cycle components in the Earth's global sea level record.**
+**A python script for examining Milankovitch cycle components in the Antarctic CO2, temperature and dust records, and
+the Earth's global sea level record.**
 
 ![output](plots/sealevel.png)
 
-Global sea level has varied by over 120 meters in the last 500,000 thousands years. Examination of the data reveals
-at least one cyclical component at a period of around 100,000 years.
+Global sea level has varied by over 120 meters in the last 500,000 thousands years. CO2, temperature, and dust levels in
+the Antarctic have also varied throughout that period. Examination of the data reveals at least one cyclical component,
+at a period of around 100,000 years.
 
-This script applies the Fourier Transform to sea level data to compute the power spectra. This reveals significant
-frequencies corresponding to the Earth's orbital ellipticity, axial tilt, and axial precession.
+This script applies the Fourier Transform to CO2, temperature, dust, and sea level data to compute the power spectra.
+This reveals significant frequencies corresponding to the Earth's orbital ellipticity, axial tilt, and axial precession.
 
 **To run:**
 
@@ -17,7 +19,7 @@ frequencies corresponding to the Earth's orbital ellipticity, axial tilt, and ax
 3. In a terminal, type:
 
 ```
-> pip install milankovitch-1.0-py3-none-any.whl
+> pip install milankovitch-2.0-py3-none-any.whl
 > sealevel
 ```
 
@@ -43,10 +45,10 @@ the  [Research School of Earth Sciences](https://github.com/ANU-RSES-Education/E
 
 # Changelog
 
-## Unreleased
+## [2.0] 8 April
 
-- Add European Project for Ice Coring in Antarctica as a datasource
+- Add European Project for Ice Coring in Antarctica as a datasource for CO2, temperature, and dust
 
-## [1.0] --- 5 April 2023
+## [1.0] 5 April 2023
 
-- Initial release
+- Initial release examining sealevel
