@@ -24,7 +24,7 @@ def next_power_of_2(x):
     return 1 if x == 0 else math.ceil(math.log2(x))
 
 
-def compute_fft(df: pd.DataFrame, data_col: str) -> pd.DataFrame:
+def compute_fft(df: pd.DataFrame, data_col: str, max_period: int = None) -> pd.DataFrame:
     """
     Compute the Fourier Transform into the frequency domain.
     Args:
@@ -55,5 +55,8 @@ def compute_fft(df: pd.DataFrame, data_col: str) -> pd.DataFrame:
 
     # Dataframe of periods less than max_period years
     df = pd.DataFrame(list(zip(periods, power)), columns=["periods", "power"])
+
+    if max_period is not None:
+        df = df[df["periods"] <= max_period]
 
     return df

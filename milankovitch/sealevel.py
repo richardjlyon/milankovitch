@@ -23,8 +23,7 @@ plt.style.use("../style/elegant.mplstyle")
 
 def plot_sealevel():
     df_sealevel = rses_sealevel()
-    df_fft = compute_fft(df_sealevel, "RSL(m)")
-    df_fft = df_fft[df_fft["periods"] < 120]
+    df_fft = compute_fft(df_sealevel, "RSL(m)", 120)
 
     f, (ax0, ax1) = plt.subplots(2, 1, figsize=(12, 8))
     plt.subplots_adjust(hspace=0.4)
@@ -44,7 +43,6 @@ def plot_sealevel():
     ax1.set_title("Milankovitch Cycle components")
     ax1.set_xlabel("Period ('000 years)")
     ax1.set_ylabel("Power (relative)")
-    ax1.invert_xaxis()
 
     # plot annotations
 
